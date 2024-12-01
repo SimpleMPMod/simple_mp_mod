@@ -1,0 +1,33 @@
+country_decisions = {
+	simple_add_seats_decision = {
+		# Add Seats Decision
+		color = {
+			255
+			128
+			0
+		}
+		potential = {
+			ai = no
+			has_parliament = yes
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = simple_add_seats_decision_ttt
+				any_owned_province = {
+					has_seat_in_parliament = no
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				every_owned_province = {
+					set_seat_in_parliament = yes
+				}
+			}
+			custom_tooltip = simple_add_seats_decision_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

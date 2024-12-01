@@ -1,0 +1,183 @@
+country_event = {
+	# Set Edict Events
+	id = simple_events.3
+	title = simple_events.3.t
+	desc = simple_events.3.d
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = simple_events.3.0
+		clr_country_flag = simple_estate_templates_flag
+	}
+	option = {
+		name = simple_events.3.1
+		custom_tooltip = simple_events.3.1.tt
+		# Dhimmi
+		if = {
+			limit = {
+				has_estate = estate_dhimmi
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_dhimmi_grant_liberties
+				set_estate_privilege = estate_dhimmi_development_of_communities
+				set_estate_privilege = estate_dhimmi_dhimmi_education
+				set_estate_privilege = estate_dhimmi_protected_communities
+			}
+		}
+		# Clergy
+		if = {
+			limit = {
+				NOT = {
+					has_estate = estate_dhimmi
+				}
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_church_clerical_education
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_church_religious_state
+				set_estate_privilege = estate_church_clerical_oversight
+				set_estate_privilege = estate_church_religious_diplomats
+			}
+		}
+		# Nobles
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_nobles_nobility_primacy
+				set_estate_privilege = estate_nobles_levies
+			}
+		}
+		# Burghers
+		if = {
+			limit = {
+				has_estate = estate_burghers
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_burghers_patronage_of_the_arts
+				set_estate_privilege = estate_burghers_free_enterprise
+				set_estate_privilege = estate_burghers_financial_demand
+				set_estate_privilege = estate_burghers_promote_burgher_bookkeeping
+			}
+		}
+		# Cossacks
+		if = {
+			limit = {
+				has_estate = estate_cossacks
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_cossacks_cossack_self_governance
+				set_estate_privilege = estate_cossacks_recruit_cossack_generals
+				set_estate_privilege = estate_cossacks_prime_herding_rights
+				set_estate_privilege = estate_cossacks_grant_military_leadership
+			}
+		}
+		# Janissaries
+		if = {
+			limit = {
+				has_estate = estate_cossacks
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_janissary_sultans_aghas
+				set_estate_privilege = estate_janissary_minimal_payment
+				set_estate_privilege = estate_janissary_rough_discipline
+				set_estate_privilege = estate_janissary_loyalty_to_the_sultan
+				set_estate_privilege = estate_janissary_strict_devshirme_recruitment
+			}
+		}
+	}
+	option = {
+		name = simple_events.3.2
+		custom_tooltip = simple_events.3.2.tt
+		# Dhimmi
+		if = {
+			limit = {
+				has_estate = estate_dhimmi
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_dhimmi_grant_liberties
+				set_estate_privilege = estate_dhimmi_development_of_communities
+				set_estate_privilege = estate_dhimmi_dhimmi_education
+				set_estate_privilege = estate_dhimmi_protected_communities
+			}
+		}
+		# Clergy
+		if = {
+			limit = {
+				NOT = {
+					has_estate = estate_dhimmi
+				}
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_church_clerical_education
+			}
+		}
+		# Clergy
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_church_religious_state
+				set_estate_privilege = estate_church_clerical_oversight
+				set_estate_privilege = estate_church_religious_diplomats
+				set_estate_privilege = estate_church_clerical_education
+			}
+		}
+		# Nobles
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_nobles_nobility_primacy
+				set_estate_privilege = estate_nobles_levies
+			}
+		}
+		# Burghers
+		if = {
+			limit = {
+				has_estate = estate_burghers
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_burghers_land_of_commerce
+				set_estate_privilege = estate_burghers_patronage_of_the_arts
+				set_estate_privilege = estate_burghers_free_enterprise
+				set_estate_privilege = estate_burghers_financial_demand
+				set_estate_privilege = estate_burghers_promote_burgher_bookkeeping
+			}
+		}
+		# Cossacks
+		if = {
+			limit = {
+				has_estate = estate_cossacks
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_cossacks_cossack_self_governance
+				set_estate_privilege = estate_cossacks_recruit_cossack_generals
+				set_estate_privilege = estate_cossacks_prime_herding_rights
+				set_estate_privilege = estate_cossacks_grant_military_leadership
+			}
+		}
+		# Janissaries
+		if = {
+			limit = {
+				has_estate = estate_cossacks
+			}
+			hidden_effect = {
+				set_estate_privilege = estate_janissary_sultans_aghas
+				set_estate_privilege = estate_janissary_minimal_payment
+				set_estate_privilege = estate_janissary_rough_discipline
+				set_estate_privilege = estate_janissary_loyalty_to_the_sultan
+				set_estate_privilege = estate_janissary_strict_devshirme_recruitment
+			}
+		}
+	}
+}

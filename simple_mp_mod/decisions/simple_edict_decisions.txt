@@ -1,0 +1,45 @@
+country_decisions = {
+	simple_state_edicts_decision = {
+		# State Edicts Decision
+		color = {
+			255
+			128
+			0
+		}
+		provinces_to_highlight = {
+			has_state_edict_enabled = yes
+			owned_by = ROOT
+		}
+		potential = {
+			ai = no
+			NOT = {
+				has_country_flag = simple_state_edicts_flag
+			}
+			OR = {
+				NOT = {
+					has_country_flag = simple_state_edicts_clear_flag
+				}
+				had_country_flag = {
+					flag = simple_state_edicts_clear_flag
+					days = 33
+				}
+			}
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = simple_state_edicts_decision_ttt
+				always = yes
+			}
+		}
+		effect = {
+			set_country_flag = simple_state_edicts_flag
+			country_event = {
+				id = simple_events.2
+			}
+			custom_tooltip = simple_state_edicts_decision_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

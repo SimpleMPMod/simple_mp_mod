@@ -1,0 +1,275 @@
+country_event = { # Clear Building Events
+	id = simple_events.1
+	title = simple_events.1.t
+	desc = simple_events.1.d
+	picture = CITY_DEVELOPMENT_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = simple_events.1.0
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_tax_building_trigger = yes } }
+		name = simple_events.1.1
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_tax_building_trigger = yes }
+				remove_building = temple
+				remove_building = cathedral
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_trade_building_trigger = yes } }
+		name = simple_events.1.2
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_trade_building_trigger = yes }
+				remove_building = marketplace
+				remove_building = trade_depot
+				remove_building = stock_exchange
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_production_building_trigger = yes } }
+		name = simple_events.1.3
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_production_building_trigger = yes }
+				remove_building = workshop
+				remove_building = counting_house
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_dock_building_trigger = yes } }
+		name = simple_events.1.4
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_dock_building_trigger = yes }
+				remove_building = dock
+				remove_building = drydock
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_shipyard_building_trigger = yes } }
+		name = simple_events.1.5
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_shipyard_building_trigger = yes }
+				remove_building = shipyard
+				remove_building = grand_shipyard
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_manpower_building_trigger = yes } }
+		name = simple_events.1.6
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_manpower_building_trigger = yes }
+				remove_building = barracks
+				remove_building = training_fields
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_forcelimit_building_trigger = yes } }
+		name = simple_events.1.7
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_forcelimit_building_trigger = yes }
+				remove_building = regimental_camp
+				remove_building = conscription_center
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_fort_building_trigger = yes } }
+		name = simple_events.1.8
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_fort_building_trigger = yes }
+				remove_building = fort_15th
+				remove_building = fort3
+				remove_building = fort_16th
+				remove_building = fort5
+				remove_building = fort_17th
+				remove_building = fort7
+				remove_building = fort_18th
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_coast_defense_building_trigger = yes } }
+		name = simple_events.1.9
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_coast_defense_building_trigger = yes }
+				remove_building = coastal_defence
+				remove_building = naval_battery
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = impressment_offices } }
+		name = simple_events.1.10
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = impressment_offices }
+				remove_building = impressment_offices
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = state_house } }
+		name = simple_events.1.11
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = state_house }
+				remove_building = state_house
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = soldier_households } }
+		name = simple_events.1.12
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = soldier_households }
+				remove_building = soldier_households
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = furnace } }
+		name = simple_events.1.13
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = furnace }
+				remove_building = furnace
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = mint } }
+		name = simple_events.1.14
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = mint }
+				remove_building = mint
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT OR = { has_building = wharf has_building = weapons has_building = textile has_building = plantations has_building = tradecompany has_building = farm_estate has_building =  mills } } }
+		name = simple_events.1.15
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT OR = { has_building = wharf has_building = weapons has_building = textile has_building = plantations has_building = tradecompany has_building = farm_estate has_building =  mills } }
+				remove_building = wharf
+				remove_building = weapons
+				remove_building = textile
+				remove_building = plantations
+				remove_building = tradecompany
+				remove_building = farm_estate
+				remove_building = mills
+			}
+		}
+		custom_tooltip = simple_events.1.15.tt
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = wharf } }
+		name = simple_events.1.16
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = wharf }
+				remove_building = wharf
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = weapons } }
+		name = simple_events.1.17
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = weapons }
+				remove_building = weapons
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = textile } }
+		name = simple_events.1.18
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = textile }
+				remove_building = textile
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = plantations } }
+		name = simple_events.1.19
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = plantations }
+				remove_building = plantations
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = tradecompany } }
+		name = simple_events.1.20
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = tradecompany }
+				remove_building = tradecompany
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = farm_estate } }
+		name = simple_events.1.21
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = farm_estate }
+				remove_building = farm_estate
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = mills } }
+		name = simple_events.1.22
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = mills }
+				remove_building = mills
+			}
+		}
+		clr_country_flag = simple_clear_specific_building_flag
+	}
+}

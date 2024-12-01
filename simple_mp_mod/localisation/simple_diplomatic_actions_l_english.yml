@@ -1,0 +1,6 @@
+﻿l_english:
+  simple_send_military_observer_action_title: "Send Military Observer"
+  simple_send_military_observer_action_desc: "We will ask the nation if we can send military observers. This will lift the fog of war on this nation for 5 years. The AI will never take this decision."
+  simple_send_military_observer_action_dialog: "[This.GetName] asks if they can send military observers. This would allow them to see our nation in full, and spectate wars."
+  simple_send_military_observer_action_tooltip: "Ask that they accept our military observers."
+  simple_send_military_observer_action_alert_tooltip: "Ask that they accept our military observers for 5 years."

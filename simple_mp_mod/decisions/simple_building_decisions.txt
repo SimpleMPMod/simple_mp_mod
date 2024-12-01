@@ -1,0 +1,29 @@
+country_decisions = {
+	simple_clear_specific_building_decision = {
+		# Building Decision
+		color = {
+			255
+			128
+			0
+		}
+		potential = {
+			ai = no
+			NOT = {
+				has_country_flag = simple_clear_specific_building_flag
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_country_flag = simple_clear_specific_building_flag
+			country_event = {
+				id = simple_events.1
+			}
+			custom_tooltip = simple_clear_specific_building_decision_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

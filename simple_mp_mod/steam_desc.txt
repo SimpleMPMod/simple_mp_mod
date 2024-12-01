@@ -1,0 +1,18 @@
+A Simple Multiplayer Mod which retains vanilla balance and cosmetics, while adding minor features and quality of life improvements.
+
+[h2]Version [b]1.0.1[/b] | Checksum [b]ec48[/b][/h2]
+
+[h2]Mod Features:[/h2]
+[list]
+[*]Removed American Natives (except in the Mexico and Peru Regions).
+[*]Nations with a European capital in the western technology group gain a free colonist at tech 7.
+[/list]
+
+[h2]Quality of Life Changes:[/h2]
+[list]
+[*]Decision to set all state edicts.
+[*]Decision to remove destroy all buildings of a type.
+[*]Decision to add all provinces to parliament.
+[/list]
+
+This mod [b]does[/b] affect the checksum, however it will be compatible with most cosmetic mods.
