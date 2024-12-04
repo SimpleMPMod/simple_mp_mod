@@ -1,18 +1,19 @@
-A Simple Multiplayer Mod which retains vanilla balance and cosmetics, while adding minor features and quality of life improvements.
+The [b]Simple Multiplayer Mod[/b], retains vanilla balance, while adding minor features and quality of life improvements.
 
-[h2]Version [b]1.0.1[/b] | Checksum [b]ec48[/b][/h2]
+[h2]Game Version: [b]1.37.*[/b] | Mod Version: [b]1.0.2[/b] | Checksum: [b]b48d[/b][/h2]
 
 [h2]Mod Features:[/h2]
 [list]
 [*]Removed American Natives (except in the Mexico and Peru Regions).
 [*]Nations with a European capital in the western technology group gain a free colonist at tech 7.
+[*]Colonies can form nations while still a subject.
 [/list]
 
 [h2]Quality of Life Changes:[/h2]
 [list]
-[*]Decision to set all state edicts.
-[*]Decision to remove destroy all buildings of a type.
+[*]Decision to set edicts on all states.
+[*]Decision to destroy all buildings of a type from all provinces.
 [*]Decision to add all provinces to parliament.
 [/list]
 
-This mod [b]does[/b] affect the checksum, however it will be compatible with most cosmetic mods.
+This mod [b]changes[/b] the checksum, but is compatible with cosmetic mods.
