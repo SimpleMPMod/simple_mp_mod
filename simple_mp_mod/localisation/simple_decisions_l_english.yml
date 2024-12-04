@@ -39,7 +39,3 @@
   simple_state_edicts_decision_state_integration_state_edict: "State Integration Edict"
   simple_state_edicts_decision_urbanization_state_edict: "Urbanization Edict"
   simple_state_edicts_decision_no_edict: "No Edicts"
-  # Estate Quickstart Templates Decisions
-  simple_estate_templates_decision_title: "Estate Privilege Quickstart Menu"
-  simple_estate_templates_decision_desc: "Choose which template you would like to use as to quickstart your estate privileges."
-  simple_estate_templates_decision_tt: "Shows an event with a list of templates that you can use to quickstart your estate privileges."

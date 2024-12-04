@@ -50,11 +50,3 @@
   simple_events.2.16: "Enable §YReligious Tolerance Edict§! State Edict."
   simple_events.2.17: "Enable §YState Integration Edict§! State Edict."
   simple_events.2.18: "Enable §YUrbanization Edict§! State Edict."
-  # Estate Quickstart Template Events
-  simple_events.3.t: "Set Estate Privileges"
-  simple_events.3.d: "Carefully select a template that will set your privileges. Hover over each option to find out more."
-  simple_events.3.0: "Never mind."
-  simple_events.3.1: "Generic £adm£§G+1§! £mil£§G+1§! Loyalty §Y50%§! Influence §Y<60%§!"
-  simple_events.3.1.tt: "Grants the §YChurch§!:\n§GReligious State§!, §YOversight by the Clergy§!, §YReligious Diplomats§! and §YClerical Education§!.\n\nGrants the §YNobles§!:\n§GPrimacy of the Nobility§! and §YIncreased Levies§!.\n\nGrants the §YBurghers§!:\n§YPatronage of the Arts§!, §YFree Enterprise§!, §YBurghers Financial Demand§! and §YPromote Burghers Bookkeeping§!."
-  simple_events.3.2: "Generic £adm£§G+1§! £mil£§G+1§! £dip£§G+1§! Loyalty §Y50%§! Influence §Y<60%§!"
-  simple_events.3.2.tt: "Grants the §YChurch§!:\n§GReligious State§!, §YOversight by the Clergy§!, §YReligious Diplomats§! and §YClerical Education§!.\n\nGrants the §YNobles§!:\n§GPrimacy of the Nobility§! and §YIncreased Levies§!.\n\nGrants the §YBurghers§!:\n§GLand of Commerce§!, §YPatronage of the Arts§!, §YFree Enterprise§!, §YBurghers Financial Demand§! and §YPromote Burghers Bookkeeping§!."
