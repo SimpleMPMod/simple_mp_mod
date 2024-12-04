@@ -5,6 +5,6 @@ tags={
 	"Balance"
 	"Map"
 }
-name="Test Mod"
+name="Simple MP Mod"
 supported_version="v1.37.*"
 path="mod/simple_mp_mod"
