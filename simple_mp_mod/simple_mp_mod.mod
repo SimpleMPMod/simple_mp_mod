@@ -1,4 +1,4 @@
-version="1.0.2*"
+version="1.0.2"
 tags={
 	"Gameplay"
 	"Expansion"
@@ -8,3 +8,4 @@ tags={
 name="Simple MP Mod"
 supported_version="v1.37.*"
 path="mod/simple_mp_mod"
+remote_file_id="3343302215"
