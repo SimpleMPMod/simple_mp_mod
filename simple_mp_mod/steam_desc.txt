@@ -1,12 +1,14 @@
 The [b]Simple Multiplayer Mod[/b], retains vanilla balance, while adding minor features and quality of life improvements.
 
-[h2]Game Version: [b]1.37.*[/b] | Mod Version: [b]1.0.2[/b] | Checksum: [b]b48d[/b][/h2]
+[h2]Game Version: [b]1.37.*[/b] | Mod Version: [b]1.1.0[/b] | Checksum: [b]6ecc[/b][/h2]
 
 [h2]Mod Features:[/h2]
 [list]
-[*]Removed American Natives (except in the Mexico and Peru Regions).
+[*]Removed American natives (except in the Mexico and Peru Regions).
+[*]Removed Aboriginal natives.
 [*]Nations with a European capital in the western technology group gain a free colonist at tech 7.
 [*]Colonies can form nations while still a subject.
+[*]Added the animist religion to two Sami provinces in Sweden and Norway and made it possible to trigger the 'Norse Awakening' event in the Age of Discovery.
 [/list]
 
 [h2]Quality of Life Changes:[/h2]
@@ -14,6 +16,7 @@ The [b]Simple Multiplayer Mod[/b], retains vanilla balance, while adding minor f
 [*]Decision to set edicts on all states.
 [*]Decision to destroy all buildings of a type from all provinces.
 [*]Decision to add all provinces to parliament.
+[*]Doubled the number of days needed to trigger a slow down or pause from lagging players. 
 [/list]
 
 This mod [b]changes[/b] the checksum, but is compatible with cosmetic mods.
